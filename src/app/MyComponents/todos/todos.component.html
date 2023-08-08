@@ -1,0 +1,6 @@
+<div *ngFor="let item of todos">
+    <h3>{{item.sno}} - {{item.title}}</h3>
+    <p>{{item.desc}}</p>
+    <!-- <button type="checkbox"></button> -->
+    <button class="Delete" (click)="onclick(item)">Delete</button>  
+</div>

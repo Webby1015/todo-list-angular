@@ -1,0 +1,17 @@
+div {
+    margin: 0px;
+    text-align: center;
+    border: 0.5px solid black;
+}
+button{
+    margin-bottom: 2px;
+    min-width: 100px;
+    min-height: 25px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+button:active{
+    background-color: rgb(249, 108, 108);
+}
